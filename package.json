@@ -1,0 +1,34 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "Backend individual proyect",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon -L",
+        "test": "mocha -w ./tests/**/*.spec.js"
+    },
+    "keywords": [
+        "NodeJs",
+        "PostgreSql",
+        "Express",
+        "Sequelize"
+    ],
+    "author": "@marco5x",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.2.1",
+        "body-parser": "^1.20.1",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "helmet": "^6.0.1",
+        "morgan": "^1.10.0",
+        "pg": "^8.8.0",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^6.27.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}

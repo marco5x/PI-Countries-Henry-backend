@@ -24,7 +24,7 @@ server.post('/', async (req, res) => {
     }  
 })
 
-server.get('/', async (req, res) => {
+server.get('/all', async (req, res) => {
     const activities = await Activity.findAll({include:Country})
     res.json(activities) 
 })

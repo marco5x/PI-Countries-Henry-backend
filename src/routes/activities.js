@@ -23,7 +23,6 @@ server.post('/', async (req, res) => {
         res.json(actTour)
         
     } catch (error) {
-        console.log(error)
         res.send(error)    
     }  
 })
